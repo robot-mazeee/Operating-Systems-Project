@@ -1,0 +1,9 @@
+WRITE [(a,anna)(b,bernardo)]
+WRITE [(d,dinis)(c,carlota)]
+WAIT 30000
+WRITE [(a,annabela)]
+DELETE [a]
+WAIT 10000
+WRITE [(c,carlos)]
+DELETE [c]
+WAIT 10000

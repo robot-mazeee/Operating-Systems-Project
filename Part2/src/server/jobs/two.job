@@ -1,0 +1,15 @@
+WRITE [(e,edmundo)(f,felix)]
+WAIT 2000
+WRITE [(g,gabriela)(h,helio)]
+WAIT 2000
+BACKUP
+WAIT 2000
+DELETE [g]
+WAIT 2000
+WRITE [(i,ignacio)(j,joana)]
+WAIT 2000
+WRITE [(k,katia)(l,leonel)]
+WAIT 2000
+DELETE [a]
+WAIT 1000
+BACKUP
