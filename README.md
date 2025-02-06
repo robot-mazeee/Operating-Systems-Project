@@ -4,13 +4,12 @@ The first part of this project consists of implementing an interactive Hash Tabl
 
 This repository provides two sets of automatic tests for part 1, which can be ran with:
 
+```
 cd Part1
-<br/>
 make
-<br/>
 bash ./tests-public/run_ex1.sh kvs
-<br/>
 bash ./tests-public/run_ex2.sh kvs
+```
 
 <h1>Part 2</h1>
 
@@ -18,12 +17,11 @@ For part 2, the goal is to make IST-KVS accessible to clients. Now, the applicat
 
 The server can be launched with the following commands: 
 
+```
 cd Part2
-<br/>
 make
-<br/>
 ./src/server/kvs directory_path max_threads max_backups server_named_pipe
-<br/>
+```
 (Example: ./src/server/kvs ./src/server/jobs 3 3 /tmp/server)
 
 <h6>directory_path</h6> - path of the directory
@@ -38,8 +36,9 @@ make
 
 A client can be launched with the following command:
 
+```
 ./src/client/client client_id server_named_pipe
-<br/>
+```
 (Example: ./src/client/client 1 /tmp/server)
 
 <h6>client_id</h6> - unique client identifier
@@ -48,22 +47,18 @@ A client can be launched with the following command:
 <br>
 <br/>
 Once connected, you can use the following commands:
-<br/>
-<br/>
+
+```
 SUBSCRIBE [key]
-<br/>
 UNSUBSCRIBE [key]
-<br/>
 DISCONNECT
-<br/>
-<br/>
+```
+
 Example:
-<br/>
-<br/>
+
+```
 SUBSCRIBE [a]
-<br/>
 SUBSCRIBE [b]
-<br/>
 UNSUBSCRIBE [b]
-<br/>
 DISCONNECT
+```
