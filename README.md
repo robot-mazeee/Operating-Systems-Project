@@ -1,6 +1,6 @@
 <h1>Part 1</h1>
 
-The first part of this project consists of implementing an interactive Hash Table called IST-KVS, which stores key-value pairs. To do so, the program reads a directory where each file (with extension .job) has a sequence of commands, such as writting, reading and deleting keys from IST-KVS, as well as perfomimg backups on the current state of the table. In order to do this efficiently, mechanisms like multi-threading and concurrency are implemented. This project taught me how to manage file systems, work with locks, synchronize multiple processes and threads, and much more.
+The first part of this project consists of implementing an interactive Hash Table called IST-KVS, which stores key-value pairs. To do so, the program reads a directory where each file (with extension .job) has a sequence of commands, such as writting, reading and deleting keys from IST-KVS, as well as performimg backups on the current state of the table. In order to do this efficiently, mechanisms like multi-threading and concurrency are implemented. This project taught me how to manage file systems, work with locks, synchronize multiple processes and threads, and much more.
 
 This repository provides two sets of automatic tests for part 1, which can be ran with:
 
